@@ -1,0 +1,38 @@
+h1 { /* box-level */
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(213, 96, 0);
+
+    /* shorthand 
+    border: 10px dashed red; */
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+     /* shorthand 
+     padding: 10px 10px 10px 10px; (modifica cada lado)
+     padding: 10px; (todos os lados ficam 10px)
+     padding: 10px 20px; (10px cime e baixo, 20px lados)
+      */
+
+    margin: 20px auto 40px auto;
+    
+    outline: 5px solid green;
+
+}
+
+a { /* inline-level */
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;   
+}

@@ -1,0 +1,42 @@
+/*
+ HTML é id = CSS é # (pode um elemento)
+ HTML é class = em CSS é . (pode vários elementos)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+   background-color: #024958;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    font: bolder 48px "Molle", cursive;
+    color: #F2CB05;
+    text-align: center;
+
+}
+h2 {
+    font:bold arial,helvetica,sans-serif;
+    color:#F2B84B ;
+}
+h3 {
+    font: normal arial,helvetica,serif;
+    color: #BF4136;
+}
+p {
+    text-align: justify;
+    color: white;
+    text-indent: 1%;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avançado {
+    color: red;
+}
